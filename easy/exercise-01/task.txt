@@ -1,0 +1,39 @@
+Tarefa
+
+O esboço de código fornecido lê dois inteiros,a e b, de STDIN.
+
+Adicione lógica para imprimir duas linhas. A primeira linha deve conter o resultado da divisão inteira,a//b. A segunda linha deve 
+conter o resultado da divisão de ponto flutuante,a/b.
+
+Não é necessário arredondamento ou formatação.
+
+Exemplo:
+
+a = 3
+b = 5
+
+O resultado da divisão inteira 3//5 = 0.
+O resultado da divisão de ponto flutuante é 3/5 = 0.6.
+
+Imprimir:
+0
+0,6
+
+Formato de entrada
+
+A primeira linha contém o primeiro inteiro, a.
+A segunda linha contém o segundo inteiro, b.
+
+Formato de saída
+
+Imprima as duas linhas conforme descrito acima.
+
+Entrada de amostra 0
+
+4 
+3
+
+Saída de amostra 0
+
+1 
+1.33333333333
