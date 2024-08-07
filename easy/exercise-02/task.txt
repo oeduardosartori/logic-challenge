@@ -1,0 +1,33 @@
+Tarefa
+O stub de código fornecido lê um inteiro, n, de STDIN. Para todos os inteiros não negativos, i < n imprimir i².
+
+Exemplo
+n = 3
+A lista de inteiros não negativos que são menores que n = 3 é [0, 1, 2]. Imprima o quadrado de cada número em uma linha separada.
+
+0
+1
+4
+
+Formato de entrada
+
+A primeira e única linha contém o inteiro, n.
+
+Restrições
+1 <= n <= 20
+
+Formato de saída
+
+Imprimir n linhas, uma correspondendo a cada i.
+
+Entrada de amostra 0
+
+5
+
+Saída de amostra 0
+
+0 
+1 
+4 
+9 
+16
