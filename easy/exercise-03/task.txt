@@ -1,0 +1,53 @@
+Considere uma lista ( list = []). Você pode executar os seguintes comandos:
+
+insert i e: Inserir inteirona posição.
+print: Imprima a lista.
+remove e: Exclua a primeira ocorrência do inteiro.
+append e: Inserir inteirono final da lista.
+sort: Classifique a lista.
+pop: Retire o último elemento da lista.
+reverse: Inverta a lista.
+Inicialize sua lista e leia o valor deseguido pelalinhas de comandos onde cada comando será dotipos listados acima. Itere por cada comando em ordem e execute a operação correspondente na sua lista.
+
+Exemplo
+n = 4
+append 1
+append 2
+insert 3 1
+print
+append 1 : Acrescentar 1 para a lista, arr = [1].
+append 2 : Acrescentar 2 para a lista, arr = [1, 2].
+insert 3 1 : Inserir 3 no índice 1, arr = [1, 3, 2].
+print : Imprima a matriz.
+Saída:
+[1, 3, 2]
+
+Formato de entrada
+A primeira linha contém um inteiro, n, denotando o número de comandos.
+Cada linha i do n as linhas subsequentes contêm um dos comandos descritos acima.
+
+Restrições
+Os elementos adicionados à lista devem ser inteiros.
+Formato de saída
+
+Para cada comando do tipo print, imprima a lista em uma nova linha.
+
+Entrada de amostra 0
+12 
+inserir 0 5 
+inserir 1 10 
+inserir 0 6 
+imprimir 
+remover 6 
+anexar 9 
+anexar 1 
+classificar 
+imprimir 
+pop 
+reverter 
+imprimir
+
+Saída de amostra 0
+[6, 5, 10] 
+[1, 5, 9, 10] 
+[9, 5, 1]
